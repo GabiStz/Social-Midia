@@ -1,0 +1,26 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+  }
+  #img{
+ 
+    border: 2px solid #BB99DD;
+    border-radius: 50%  ;
+  }
+  .imagem{
+    
+     width: 13.020833333333334vw;
+    border-radius: 60%;
+    border: 6px solid white ;
+    
+  
+  }
+  .botao1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
