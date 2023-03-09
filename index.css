@@ -4,8 +4,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-   
-  }
+}
   #img{
  
     border: 2px solid #BB99DD;
@@ -14,12 +13,18 @@
   }
   .imagem{
     
-    width: 13.020833333333334vw;
+    width:  13.020833333333334vw;
     border-radius: 50% ;
     border: 5px solid white ;
     
     
   
+  }
+  .link_insta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:50px;
   }
   .botao1{
     display: flex;
@@ -28,4 +33,8 @@
     margin: 50px;
     
   }
+.icones{
+  
+}
+
   
