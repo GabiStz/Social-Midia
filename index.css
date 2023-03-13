@@ -40,6 +40,7 @@ body  {
     text-decoration: none;
     font-family: Poppins;
     font-size: 1rem;
+    color: #BB99DD;
   }
 
 
@@ -48,15 +49,16 @@ body  {
     background-color:white;
     border-radius: 4px;
     cursor: pointer;
-    padding: 0.3vw;
+    padding: 2%;
+    color: #BB99DD;
+     
   }
 
 
   .botao{
     display: flex;
     flex-direction: column;
-    gap: 1.5vh;
-    margin: 3vw;
+    margin: 5%;
     width:  21.223958333333332vw;
  }
 
@@ -67,6 +69,7 @@ body  {
   flex-direction: row;
   gap: 1vw;
   justify-content: center;
+  margin: 2vw;
 }
 @media (max-width: 500px ) {
 
@@ -93,11 +96,20 @@ body  {
   .botao{
     display: flex;
     flex-direction: column;
-    gap: 1.5vh;
-    margin: 10vw;
+    margin: 5vw;
     width:  60vw;
+    margin: 3vw;
  }
 
+ button{
+  border-color: #BB99DD;
+  background-color:white;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 2%;
+  color: #BB99DD;
+   
+}
  .icones{
   display: flex;
   flex-direction: row;
