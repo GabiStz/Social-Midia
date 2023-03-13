@@ -1,23 +1,88 @@
-:root {
-    --body-bg-color: #FAF7FD;
-    --purple: #BB99DD;
+:root{
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+body  { 
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+   align-items: center;  
 }
 
   #img{
- 
+    display: flex;
+    justify-content: center;
     border: 2px solid #BB99DD;
     border-radius: 50% ;
-  
+    width:  13.7vw;
   }
+
+
   .imagem{
-    
+    display: flex;
+    justify-content: center;
     width:  13.020833333333334vw;
     border-radius: 50% ;
-    border: 5px solid white ;
+    border: 4px solid white ; 
+  }
+
+
+  .link_insta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:1.5vh;
+  }
+
+
+  a:link{
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 1rem;
+  }
+
+
+  button{
+    border-color: #BB99DD;
+    background-color:white;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0.3vw;
+  }
+
+
+  .botao{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin: 3vw;
+    width:  21.223958333333332vw;
+ }
+
+
+
+.icones{
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  justify-content: center;
+}
+@media (max-width: 500px ) {
+  #img{
+    display: flex;
+    justify-content: center;
+    border: 2px solid #BB99DD;
+    border-radius: 50% ;
+    width:  14vw;
     
+  }
+  
+  .imagem{
+    display: flex;
+    justify-content: center;
+    width: 13.8671875vw;
+    border-radius: 50% ;
+    border: 4px solid white ; 
+
   }
   .link_insta{
     display: flex;
@@ -25,33 +90,42 @@
     justify-content: center;
     margin:5vh;
   }
+
+
   a:link{
     text-decoration: none;
     font-family: Poppins;
     font-size: 1rem;
-    font: #bb9ddb;
-    
-
   }
+
+
   button{
     border-color: #BB99DD;
     background-color:white;
     border-radius: 4px;
+    cursor: pointer;
+    padding: 0.3vw;
   }
+
+
   .botao{
     display: flex;
     flex-direction: column;
     gap: 2vh;
-    margin: 5vh;
-    
-    
- 
+    margin: 3vw;
+    width:  21.223958333333332vw;
  }
+
+
+
 .icones{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-content: center;
+  gap: 1vw;
+  justify-content: center;
+}
+
+
   
 }
 
