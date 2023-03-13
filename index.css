@@ -30,7 +30,7 @@ body  {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin:5vh;
+    margin:2vh;
   }
 
 
@@ -72,15 +72,15 @@ body  {
     justify-content: center;
     border: 2px solid #BB99DD;
     border-radius: 50% ;
-    width:  15vw;
-    margin: 5vw;
+    width:  30vw;
+    margin: 10vw;
     
   }
   
   .imagem{
     display: flex;
     justify-content: center;
-    width: 13.8671875vw;
+    width: 28vw;
     border-radius: 50% ;
     border: 3px solid white ; 
 
@@ -90,14 +90,14 @@ body  {
     display: flex;
     flex-direction: column;
     gap: 1.5vh;
-    margin: 3vw;
-    width:  30vw;
+    margin: 10vw;
+    width:  50vw;
  }
 
  .icones{
   display: flex;
   flex-direction: row;
-  gap: 2vw;
+  gap: vw;
   justify-content: center;
   margin: 5vw;
 }
