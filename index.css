@@ -69,6 +69,7 @@ body  {
   justify-content: center;
 }
 @media (max-width: 500px ) {
+
   #img{
     display: flex;
     justify-content: center;
@@ -85,7 +86,7 @@ body  {
     width: 48vw;
     border-radius: 50% ;
     border: 3px solid white ; 
-    margin: 50vw;
+    
 
   }
 
@@ -110,6 +111,7 @@ a:link{
   font-size: 1rem;
   color: #BB99DD;
 }
+
 }
 
   
