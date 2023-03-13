@@ -80,7 +80,7 @@ body  {
   .imagem{
     display: flex;
     justify-content: center;
-    width: 65vw;
+    width: 48vw;
     border-radius: 50% ;
     border: 3px solid white ; 
 
@@ -91,7 +91,7 @@ body  {
     flex-direction: column;
     gap: 1.5vh;
     margin: 10vw;
-    width:  80vw;
+    width:  60vw;
  }
 
  .icones{
