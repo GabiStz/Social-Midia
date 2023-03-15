@@ -5,7 +5,8 @@
 body  { 
     display: flex;
     flex-direction: column;
-   align-items: center;  
+    align-items: center;  
+    
 }
 
   #img{
@@ -78,7 +79,8 @@ body  {
     justify-content: center;
     border: 2px solid #BB99DD;
     border-radius: 50% ;
-    width: 50vw;
+    width: 42vw;
+    margin: 15%;
     
     
   }
@@ -86,7 +88,7 @@ body  {
   .imagem{
     display: flex;
     justify-content: center;
-    width: 48vw;
+    width: 40vw;
     border-radius: 50% ;
     border: 3px solid white ; 
     
