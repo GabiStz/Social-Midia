@@ -71,14 +71,14 @@ body  {
   justify-content: center;
   margin: 2vw;
 }
-@media (max-width: 500px ) {
+@media (max-width: 550px ) {
 
   #img{
     display: flex;
     justify-content: center;
     border: 2px solid #BB99DD;
     border-radius: 50% ;
-    width:  50vw;
+    width: 50vw;
     
     
   }
